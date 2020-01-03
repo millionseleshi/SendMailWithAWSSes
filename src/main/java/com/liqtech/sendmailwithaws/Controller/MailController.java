@@ -31,7 +31,7 @@ public class MailController {
 	private Mail getMail() {
 		Mail mail = new Mail();
 		mail.setFrom(customPropertyConfig.mailFrom);
-		mail.setTo("million2seleshi@gmail.com");
+		mail.setTo("<toWhomEver@gmail.com>");
 		mail.setSubject("Simple mail");
 		Map<String, Object> model = new HashMap<>();
 		model.put("templateVariable", "Simple mail with aws..");
